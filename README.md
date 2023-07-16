@@ -1,34 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Spotify Clone
 
-## Getting Started
+> Next.js로 Spotify를 Clone하여 Next.js의 기본적인 문법과 스트럭쳐를 학습하는데 그 목적이 있음
 
-First, run the development server:
+- 사용스택
+- Next
+- Stripe
+- Supabase
+- PostgreSQL
+- TailwindCSS
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 20230716
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Spotify Clone Setting
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+#### What is Route Groups?
 
-## Learn More
+app폴더에서 () 소괄호로 작성해주면 연관성 있는 route들을 묶어 주는 역할 을 하지만 실제<br/>
+URL에서는 영향을 끼치지 않는다. 관련된 특징으로는
 
-To learn more about Next.js, take a look at the following resources:
+- URL 구조에 영향을 주지 않으면서 루트들을 조직하는 경우
+- 레이아웃에 특정한 루트 세그먼트를 도입하는 경우
+- 애플리케이션을 분할해서 여러 개의 루트 레이아웃을 생성하는 경우
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+자세한 내용은 해당 [링크](https://velog.io/@chaewonkang/Next.js-13-1.-Routing-1.2.-Defining-Routes) 를 참조
